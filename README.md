@@ -121,3 +121,21 @@ Optional quick shortcuts like:
 Quick Add (Optional Feature):
 Include a “Quick Add” button in the form.
 Pre-fill fields based on frequently added items or templates (e.g., “Milk, 1 Bottle, 7 Days”).
+
+# recipe page - tailored to their pantry inventory and personalized recommendations with search options and filtering capabilities
+
+Title Recipes at the top of the tape
+search bar to search recipes by name, ingredient, cuisine, dietry preferences, cooking timeso etc
+high priority recipe recommendations (expiring ingredients)
+section which is a horizontal scrollable row at the top that says dont waste these ingredients
+
+a vertical scrollable list of recipe cards where each card has
+recipe image, title key info like prep and cook time and ingredients matched from your pantry action buttons view recipe to open full details, save to favourites. add a clickable heart icon in the corner of each recipe card to favourite/unfavourite
+
+Substituted recipes section - using alternative ingredients when pantry missing certain key items
+
+- recipes that wouldve matched expiring ingredients but substitute for missing ones ( if out of eggs use yoghurt)
+  cards for each recipe but with a substitution
+  save or favourite recipe. add a clickable heart icon in the corner of each recipe card to favourite/unfavourite
+
+favourite button at the top of the page "View all favourites" take to favourites tab on the same page to favourite section
