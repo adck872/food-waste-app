@@ -139,3 +139,24 @@ Substituted recipes section - using alternative ingredients when pantry missing 
   save or favourite recipe. add a clickable heart icon in the corner of each recipe card to favourite/unfavourite
 
 favourite button at the top of the page "View all favourites" take to favourites tab on the same page to favourite section
+
+# waste page - user insights about their food-saving habits, waste patterns and overall contribution toward reducing food waste
+
+Title Waste statistics in centre
+include a tage line or stat such as " you saved this much food this month"
+filter or drop down for time periods (weekly,monthly,yearly)
+
+summary card section - showing key stats or horizontal scrollable area
+total food saved in weight
+total waste reduced in waste in percentage or volume
+environmenta impact : equivalent co2 emmisions saved
+
+graph of their waste trends over the past month
+line graph/barchart to track food waste over time
+
+breakfown of waste by category in a pie chart underneath graph of their waste trends
+
+- notice vegetable category high add a tip below chart recommends proper storage methods etc
+  food waste vs food saved chart
+
+comparison graph : to compare user stats to their past performance
