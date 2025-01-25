@@ -12,6 +12,7 @@ registration link if not registered
 logo at top,
 text box for first name
 text box for last name
+text box for email address
 text box for username
 text box for password
 
@@ -48,6 +49,43 @@ Button: “More Tips.”
 Rewards Progress
 Progress bar: 60% toward next badge.
 Button: “View Rewards.”
+
+# notification page - users track alerts, reminders and messages
+
+Header "Your notifications"
+
+displayed as a card or list item with:
+Title , time stamp and button with mark as read in a vertical list
+Card Example 1: "Your bread is expiring soon. Consider making a sandwich today!"
+Icon: 🥖 (Bread icon)
+Timestamp: 3 hours ago
+Action: "View recipe"
+clear all button at the bottom of the page to reset notifications
+
+# settings page - customize app experience and manage preferences
+
+Header:
+
+Title: "Settings" displayed at the top.
+Profile Section:
+
+User Profile Card: Display basic user information (e.g., username, and email address).
+Edit Button: A small "Edit" icon/button for users to update their profile details.
+Logout Button: Positioned clearly below the profile card, allowing users to log out of the app.
+
+A toggle switch for enabling/disabling specific notifications:
+Expiry Alerts: Toggle for receiving reminders about expiring pantry items.
+Environmental Tips: Toggle for enabling or disabling daily/weekly sustainability tips.
+Recipe Suggestions: Toggle for receiving recipe recommendations based on expiring ingredients.
+Include a description under each toggle, e.g., "Receive alerts for ingredients nearing expiration."
+
+App Customization:
+
+Themes: Let users switch between Light Mode, Dark Mode, or System Default.
+
+Account Management:
+
+Delete Account: Option to permanently delete the user’s account. Include a confirmation prompt for this action.
 
 # Pantry page (linked from bottom nav bar)
 
@@ -132,6 +170,13 @@ section which is a horizontal scrollable row at the top that says dont waste the
 a vertical scrollable list of recipe cards where each card has
 recipe image, title key info like prep and cook time and ingredients matched from your pantry action buttons view recipe to open full details, save to favourites. add a clickable heart icon in the corner of each recipe card to favourite/unfavourite
 
+User Confirmation:
+
+After the user marks the recipe as "Completed" (e.g., they made the recipe), prompt them with a confirmation modal:
+"Would you like to update your pantry to reflect the ingredients you used?"
+Include options:
+Yes: Updates the pantry.
+
 Substituted recipes section - using alternative ingredients when pantry missing certain key items
 
 - recipes that wouldve matched expiring ingredients but substitute for missing ones ( if out of eggs use yoghurt)
@@ -186,3 +231,45 @@ Use Leftovers Creatively: “Transform yesterday’s dinner into a new meal! Fro
 Check Expiration Dates: “Before buying new food, check the expiration dates and use what’s close to expiring first.” [Image/Icon of an expiration date]
 
 Buy in Smaller Quantities: “Buy only what you’ll use in a week to prevent spoilage and unnecessary waste.” [Image/Icon of a shopping list or smaller portions]
+
+# rewards page
+
+Header:
+
+Title: "Rewards" displayed prominently at the top.
+Motivational Tagline: A short, inspiring line like "Your efforts to save food make a big difference!".
+Progress Indicator: A visual bar or pie chart at the top showing the user's current progress toward the next reward milestone.
+
+Points Overview:
+
+Display the Total Points Earned so far, prominently at the top, e.g., "You have 2,500 points!".
+Include a breakdown of how points were earned, e.g.,:
+Saving Ingredients: +200 points
+Using Expiring Ingredients in Recipes: +500 points
+Reducing Wasted Food: +100 points
+
+Rewards Gallery:
+
+Unlocked Rewards Section:
+Show rewards the user has earned, such as badges, gift cards, or discounts. Use a grid layout to display these rewards with icons/images (e.g., gold star badges, trophies, or images of discounts).
+Locked Rewards Section:
+Display rewards that the user can unlock. Include a brief description of what they need to do to earn them, such as:
+"Save 5 more pantry items to unlock a 10% discount coupon!"
+Use a faded or grayscale design for locked rewards.
+
+Redeemable Rewards Section:
+
+Include a dedicated section for redeemable rewards (if applicable):
+Show available gift cards, coupons, or physical rewards that users can claim using their points.
+Add a "Redeem" button next to each reward with the required points displayed.
+
+Achievements and Badges:
+
+Badge System: Introduce badges for specific milestones:
+"Pantry Hero" for using 50 expiring items.
+"Waste Warrior" for reducing food waste by 50%
+
+Each badge can include:
+Title
+Icon/Image
+Earned Date
