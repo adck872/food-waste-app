@@ -160,3 +160,29 @@ breakfown of waste by category in a pie chart underneath graph of their waste tr
   food waste vs food saved chart
 
 comparison graph : to compare user stats to their past performance
+
+# Environmental tips page - provides personalized tips and educational content to reduce food waste
+
+Header at top title "Environmental tips"
+"small actions, big impact" subtitle underneath
+Content:brief introduction about the environmental consequences of food waste, providing statistics how much food gets wasted globally and the environmental toll it takes
+
+Personalized Tips Based on User Behavior
+Header: "Your Personalized Tips"
+Content: Based on the user’s pantry inventory and food consumption history, show tailored tips or suggestions. For example, if they frequently waste fruits, give them tips on storing them better or using them in smoothies.
+Example:
+
+“You often waste bananas. Try freezing them for smoothies or baking banana bread!”
+
+Tips section present in cards or a list with icons to each tip
+Example of Tips:
+
+Plan Your Meals: “Planning meals in advance helps you buy only what you need, reducing impulse buys that often end up in the trash.” [Image/Icon of a meal planner or calendar]
+
+Store Properly: “Proper storage extends the shelf life of your food. Learn the best ways to store fruits, vegetables, dairy, and more.” [Image/Icon of food storage]
+
+Use Leftovers Creatively: “Transform yesterday’s dinner into a new meal! From soups to smoothies, leftovers can become your next meal.” [Image/Icon of leftovers in a container]
+
+Check Expiration Dates: “Before buying new food, check the expiration dates and use what’s close to expiring first.” [Image/Icon of an expiration date]
+
+Buy in Smaller Quantities: “Buy only what you’ll use in a week to prevent spoilage and unnecessary waste.” [Image/Icon of a shopping list or smaller portions]
